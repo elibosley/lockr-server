@@ -1,0 +1,21 @@
+{
+  "name": "doorlock-server",
+  "version": "1.0.0",
+  "description": "Node Server to interface between Local Wifi and Firebase",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "firebase-admin": "^5.12.1",
+    "firebase-functions": "^1.1.0",
+    "sqlite3": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eli Bosley",
+  "license": "ISC"
+}
